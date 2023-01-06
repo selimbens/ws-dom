@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Hello world</h1>
+    <div class="article">
+        <button id="greet-btn">Click here to greet</button>
+        
+        <div>
+            <div class="circle orange"></div>
+            <div class="circle"></div>
+            <div class="circle orange"></div>
+            <div class="circle"></div>
+        </div>
+        
+        <p>Number of users: <span id="num">0</span></p>
+        <button id="add-user-btn">Add user</button>
+        <button id="delete-user-btn">Delete user</button>
+    </div>
+    <div id="users"></div>
+    <hr>
+    <form>
+        <label for="user">Name</label>
+        <input name="user" id="user-input" type="text" placeholder="type your name here">
+        <label for="tel">phone number</label>
+        <input name="tel" type="tel">
+        <button id="submit-btn">Submit</button>
+        <br>
+    </form>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
